@@ -1,0 +1,22 @@
+logika algorithma
+
+step 1 jika n = 0 return nilai m sebagai hasil dan stop.
+tidak kembali ke step 2
+step 2 bagi nilai m dengan n, masukkan nilai sisanya ke r.
+step 3 masukkan nilai n kem m dan nilai r ke n. kembali ke step 2
+
+pseudocode
+while n /= 0 do
+r <- m mod n
+m <- n
+n <- r
+return m
+
+Nilai KPK dari 3 dan 4 
+
+Step 1 Menentukan FPB dari data a dan b. 
+Step 2 bagi nilai a kali b dengan FPB a dan b.
+
+Pseudocode 
+
+KPK <- a*b / gcd(a,b)
